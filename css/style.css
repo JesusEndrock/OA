@@ -145,6 +145,7 @@ body{margin:0px; padding:0px; background:#fff; color:#060506; font-family: 'Robo
 }
 .step-extra-content{
     text-align: left;
+    margin: 0;
 }
 
 .concrete-wall-bg{
