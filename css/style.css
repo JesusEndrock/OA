@@ -2,6 +2,7 @@
 @font-face {
     font-family: "Museo";
     src: url("../fonts/Museo\ 700.otf");
+    src: url("../fonts/Museo_Slab_500.otf");
 }
 
 body{margin:0px; padding:0px; background:#fff; color:#060506; font-family: 'Roboto', Helvetica, Arial, sans-serif; }
@@ -27,14 +28,50 @@ body{margin:0px; padding:0px; background:#fff; color:#060506; font-family: 'Robo
 
 
 
-.thankyouheaderbg{background: url(../images/baxkground-thankyou.png) top center no-repeat; background-attachment:scroll;
--webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}                                         
+.thankyouheaderbg{
+    background: url(../images/banner-thank-you.jpg) top center no-repeat;
+    background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container-fluid.thankyouheaderbg {
+    height: 541px;
+}
 
-.rightbox{ color:#3d3d3d;} 
+.thankyouheaderbg .rightbox{
+    color:#3d3d3d;
+    margin-top: 40px;
+}
 
-.title-thankyou{ font-family: "Roboto", Helvetica, Arial, sans-serif; font-size: 25px; font-weight: bold; text-align: center; letter-spacing: 4px; margin-bottom:20px; }
-
-.subtitle-thankyou{ padding: 0px 25px; font-family: "Roboto", Helvetica, Arial, sans-serif; font-size: 14px; letter-spacing: 1px; line-height: 1.71; text-align: center; margin-bottom: 24px;}
+.title-thankyou{
+    font-family: "Museo", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.14;
+    text-align: center;
+    color: #025a77;
+    margin-bottom: 2px;
+}
+.title2-thankyou{
+    font-family: "Museo", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.71;
+    text-align: center;
+    color: #00293c;
+    margin-bottom: 23px;
+}
+.subtitle-thankyou{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: #00293c;
+    margin-bottom: 30px;
+}
 
 .form{ margin: 0 auto; text-align:center; margin-bottom:20px; padding-top:15px;}     
            
@@ -46,23 +83,82 @@ body{margin:0px; padding:0px; background:#fff; color:#060506; font-family: 'Robo
 
 .social-share a{ text-align: center; width:48px; display: inline-block; }
 
-.input{ font-family: "Roboto", Helvetica, Arial, sans-serif; width:80%; padding:15px 35px; color:#818181; border:0px; background-color:#fff; border-radius: 6px 0px 0px 6px;} 
+.input{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width:80%;
+    padding:20px 28px;
+    color:#818181;
+    border:0px;
+    background-color:#fff;
+    border-radius: 6px 0px 0px 6px;
+} 
 
-.btn-copy{ font-family: "Roboto", Helvetica, Arial, sans-serif; width: 20%; padding: 15px 0px; background-color: #4fd1a8; outline: none; border: none; color:#fff; font-weight: bold; letter-spacing: 2px; border-radius: 0px 6px 6px 0px;}                         
+.btn-copy{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #69ced7;
+    padding: 20px 0px;
+    width: 20%;
+    outline: none;
+    border: none;
+}                         
                                 									 
 .steps{ margin: 50px auto; }
 
-.steps-header{ letter-spacing: 4px; color: #3d3d3d; font-size: 25px; font-family: "Roboto", Helvetica, Arial, sans-serif; margin-bottom: 40px; }
+.steps-header{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    color: #00293c;
+    margin-bottom: 45px;
+}
 
-.step-title{ font-family: "Roboto", Helvetica, Arial, sans-serif; letter-spacing: 3px; text-align: center; color: #33856b; font-size: 19px; }
+.step-title{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.45;
+    text-align: center;
+    color: #00293c;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
 
 
-.step-content, .step-extra-content{ font-family: "Roboto", Helvetica, Arial, sans-serif; margin: 40px auto; letter-spacing: 1px; line-height: 1.71; }
+.step-content, .step-extra-content{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #012b3a;
+    margin: 20px 0;
+}
 .topbg{ background:#B28A35; height:40px;color:#fff; text-align:center; padding-top:8px;}                          
-.step-content{ margin-top: 20px; }               
+.step-content{
+    margin-top: 20px;
+}
+.step-extra-content{
+    text-align: left;
+    margin: 0;
+}
 
-
-
+.concrete-wall-bg{
+    background: url(../images/concrete-wall-2.jpg) top center no-repeat;
+    background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}  
+.concrete-wall-bg .steps{
+    margin: 55px auto;
+}
 
 img{ border:0px;}
        
@@ -70,30 +166,16 @@ img{ border:0px;}
 .step-img{
     height: auto;
     width: 100%;
-    max-width: 53px;
-    max-height: 56px;
-}
-.steps-body .step:not(:last-child):after {
-    content: "";
-    height: 14px;
-    width: 80%;
-    margin: 0 auto;
-    background-image: url(../images/arrow-right.svg);
-    position: absolute;
-    right: -40%;
-    top: 25px;
-    z-index: -1;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}	   
+    max-width: 116px;
+    max-height: 106px;
+}   
 @media (max-width:991px){
     .thankyouheaderbg{
         background-image: none;
         background-color: rgba(129, 129, 129, 0.1);  
     }
-    .steps-body .step:not(:last-child):after{
-        display: none;
+    .thankyouheaderbg .rightbox{
+        margin-top: 80px;
     }
     .step {
         position: relative;
@@ -110,20 +192,15 @@ img{ border:0px;}
     .step-title, .step-content{
         text-align: left;
     }
-    .step:not(:last-child):before{
-        content: "";
-        height: 14px;
-        width: 70px;
-        margin: 0 auto;
-        background-image: url(../images/arrow-right.svg);
-        position: absolute;
-        left: 7px;
-        top: 90%;
-        z-index: -1;
-        background-repeat: no-repeat;
-        background-position: left center;
-        background-size: contain;
-        transform: rotate(90deg);
+}
+@media (max-width:550px){
+    .thankyouheaderbg .rightbox{
+        margin-top: 40px;
+    }
+}
+@media (max-width:375px){
+    .thankyouheaderbg .rightbox{
+        margin-top: 0;
     }
 }
 
