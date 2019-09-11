@@ -21,21 +21,25 @@
 
 @media only screen and (max-width: 767px) {
 	
-.thankyouheaderbg{ height:600px;}
+.thankyouheaderbg{ height:600px; padding: 0;}
 .rightbox{float:right; padding-top:20px;margin-top:30px; }
 .title{font-size:22px;  margin-top:20px;}
 .bs-wizard{ width:350px;}
 .bs-wizard-stepnum { font-size:5px;}
 .homelogo{ text-align:center; margin-top:20px;}  
 .leftbox{ text-align: center;}  
-  
- .homeheaderbg2{height:auto;}   
+.borde{ margin: 10px; width: calc(100% - 20px); height: calc(100% - 20px);}  
+.homeheaderbg2{height:auto; width: 100%;}   
 .form2{ margin: 0 auto; text-align:center; margin-bottom:20px; width:100%; margin-top:20px;  -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; }  
 .content-close{ position: absolute; top: 0px; right: 0px;}
-.content-formbox{ margin:0px auto; }
+.content-formbox{ margin:0px auto; padding: 10px 10px 35px; }
 .photo{ width: 100%; }
 .photo img{ width: 100%; }
 .formbox{ width:100%; margin-top:40px;} 
+.form-inline{
+	width: calc(100% - 20px);
+    margin: 0 auto;
+}
    
   
 }
