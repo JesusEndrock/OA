@@ -1,5 +1,5 @@
 .thankyouheaderbg{ height:500px;}
-.rightbox{float:right; padding-top:20px;margin-top:80px; }
+.rightbox{float:right;  }
  .title{ margin-top:140px;}
 .homelogo{ text-align:right; margin-top:20px;}
 
@@ -7,7 +7,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
  
 .thankyouheaderbg{ height:480px;}
-.rightbox{float:right; padding-top:20px;margin-top:30px; }
+.rightbox{float:right; }
 
 .title{font-size:30px;  margin-top:20px;}
 
@@ -21,8 +21,8 @@
 
 @media only screen and (max-width: 767px) {
 	
-.thankyouheaderbg{ height:600px; padding: 0;}
-.rightbox{float:right; padding-top:20px;margin-top:30px; }
+.thankyouheaderbg{ height: auto; padding: 40px 0px;}
+.rightbox{float:right; }
 .title{font-size:22px;  margin-top:20px;}
 .bs-wizard{ width:350px;}
 .bs-wizard-stepnum { font-size:5px;}
@@ -47,8 +47,8 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
  
-.thankyouheaderbg{ height:500px;}
-.rightbox{float:right; padding-top:20px;margin-top:30px; }
+.thankyouheaderbg{ height:auto;}
+.rightbox{float:right;}
 .title{font-size:30px;  margin-top:20px;}
 
  }
