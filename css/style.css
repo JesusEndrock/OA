@@ -77,6 +77,8 @@ body{margin:0px; padding:0px; background:#fff; color:#060506; font-family: 'Robo
     color: #025a77;
     margin-bottom: 5px;
 }
+.indexheaderbg .title-thankyou{font-size: 32px;}
+
 .title2-thankyou{
     font-family: "Museo", Helvetica, Arial, sans-serif;
     font-size: 24px;
@@ -86,6 +88,7 @@ body{margin:0px; padding:0px; background:#fff; color:#060506; font-family: 'Robo
     color: #00293c;
     margin-bottom: 2px;
 }
+.indexheaderbg .title2-thankyou{font-size: 22px;}
 .subtitle-thankyou{
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 18px;
